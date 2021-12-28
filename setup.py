@@ -48,7 +48,7 @@ setup(
     ],
     python_requires='>=3.7',
     install_requires=[
-        'redis>=3.0.1',
+        'redis==3.5.3',
         'psutil',
         'packaging',
     ],
