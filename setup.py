@@ -62,7 +62,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     python_requires='>=3.5',
-    install_requires=['ospd>=2.0.0', 'redis>=3.0.1', 'psutil', 'packaging',],
+    install_requires=['ospd>=2.0.0', 'redis==3.5.3', 'psutil', 'packaging',],
     entry_points={'console_scripts': ['ospd-openvas=ospd_openvas.daemon:main']},
     test_suite="tests",
 )
